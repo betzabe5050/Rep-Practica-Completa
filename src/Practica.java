@@ -60,6 +60,8 @@ public class Practica extends JFrame {
 		JButton btnNewButton_1 = new JButton("-");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
+				listaNombres.remove(nombre);
 			}
 		});
 		btnNewButton_1.setBounds(288, 225, 146, 29);
