@@ -52,6 +52,9 @@ public class Practica extends JFrame {
 		JButton btnNewButton = new JButton("+");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				String nombre = textField.getText();
+				 listaNombres.add(nombre);
+			        textField.setText(""); 
 			}
 		});
 		btnNewButton.setBounds(288, 161, 146, 29);
